@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    height: 100vh;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-imagem{
+	max-width: 200px;
+	padding-left: 100px;
+}
+
+.cabecalho-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.cabecalho-lista-item{
+    color: white;
+	text-decoration: none;
+	font-size: 20px;
+    font-family: "Madimi One", sans-serif;
+}
+
+.home{
+    background-image: url("https://tm.ibxk.com.br/2021/11/30/30234913220611.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-caixa{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.home-caixa-texto{
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.home-caixa-titulo{
+    padding-bottom:  10px;
+}
+
+.home-caixa-botao{
+    background-color: rgb(33, 4, 60);
+    color: white;
+    border-radius: 10px;
+    padding: 2px 20px;
+    text-decoration: none;
+    font-family: "Lobster", sans-serif;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 30px;
+    color: white;
+}
+
+.categorias-titulo{
+    font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.categorias-subtitulo{
+    font-size: 30px;
+}
+
+.categorias-container-maior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+
+.categorias-container-menor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid white;
+	padding: 50px;
+    max-width: 250px;
+}
+
+.categorias-container-texto{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 12px;
+}
+
+.categorias-container-botao{
+    background-color: transparent;
+	border: 1px solid white;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	border-radius: 8px; 
+    text-decoration: none;
+}
+
+.sobre{
+    height: 80vh;
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2022/02/Harry-Potter-vs-Voldemort-poster.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sobre-container{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.sobre-titulo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sobre-paragrafo{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.rodape{
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid white;
+    padding-top: 20px;
+}
+
+.rodape-subtitulo{
+    font-size: 20px;
+}
+
+.rodape-paragrafo1{
+    color: rgb(175, 175, 175);
+    font-size: 16px;
+}
+
+.rodape-paragrafo2{
+    align-self: flex-end;
+    font-size: 14px;
+    padding-right: 20px;
+}
